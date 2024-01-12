@@ -1,7 +1,17 @@
 // Realiza los siguientes ejercicios en JS y entrega por medio de un link tu repositorio que contiene los ejercicios resueltos.
 
 // User profile
-// Write a program that prompts a user for their data: username, age, and a list of their favorite movies. Store the information and then showcase it in the console. Take note that the output for the films should add a small message like: 'The film {film} is one of my favorites'.
+// Write a program that prompts a user for their data: username, age, and a list of their favorite movies. 
+// Store the information and then showcase it in the console. Take note that the output for the films should add a small message like: 'The film {film} is one of my favorites'.
+
+const prompt = require("prompt-sync")();
+
+let username = prompt("Nombre usuario: ");
+let age = prompt("Edad: ");
+let favMovie = prompt("Peliculas favoritas: ");
+
+
+
 
 // Highest number
 // Write a program that asks for 10 numbers. Using logical operators and any other javascript functions/structures you've seen before, determine and output the highest of those numbers.
